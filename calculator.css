@@ -42,6 +42,11 @@ button {
 button:hover {
     background-color: #fff;
 }
+button:active {
+  background-color: #b8b6b6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .calculator {
   border: 30px groove;
   background-color: #595151;
