@@ -35,17 +35,9 @@ button {
   width: 101px;
   font-size: x-large;
   font-style: italic;
-  border: 2px groove;
+  border: 5px groove;
   border-radius: 24px;
   margin: 2px;
-}
-button:hover {
-    background-color: #fff;
-}
-button:active {
-  background-color: #b8b6b6;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
 }
 .calculator {
   border: 30px groove;
@@ -75,3 +67,8 @@ p {
   font-size: 33px;
   margin-top: -21px;
 }
+button:hover {background-color: #fff}
+button:active {
+  background-color: #b8b6b6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
